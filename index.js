@@ -5,15 +5,15 @@ const Web3 = require("web3");
 // Instantiate the environment where you'll create your fund
 //+const eth = new Eth(new HttpProvider('https://mainnet.infura.io/v3/9136e09ace01493b86fed528cb6a87a5', {
  
-   const eth = new Eth(new HttpProvider('https://rinkeby.infura.io/v3/4541d83d297f4e5780ea9875c13ee861', {
+   const eth = new Eth(new HttpProvider('saved in deployment.json notepad++', {
   confirmTransactionBlocks: 1
 }));
 
 //replace the token after v3/{token} with your infura token
-////const web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/4541d83d297f4e5780ea9875c13ee861"));
+////const web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
 console.log("hello2");
+////const from_account = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //sender --> MainWallet
 
-////const from_account = "0x8e4E1BD02F4B4c46f05a8EFbf93F6947A29396ff" //sender --> MainWallet
 ////let MainWalletETH = await web3.eth.getBalance(from_account);
 
 const deployment = fs.readFileSync('./deployment.json');
