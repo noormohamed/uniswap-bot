@@ -1,0 +1,22 @@
+{
+  "name": "melonjstest",
+  "version": "1.0.0",
+  "description": "melontest",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "melon"
+  ],
+  "author": "carl",
+  "license": "ISC",
+  "dependencies": {
+    "@melonproject/melonjs": "^1.0.5",
+    "web3": "^1.3.0"
+  }
+}
